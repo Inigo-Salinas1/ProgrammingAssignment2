@@ -12,7 +12,6 @@ makeCacheMatrix <- function(x = matrix()) {
              getmatrix=getmatrix)
 }
 
-
 cacheSolve <- function(x=matrix(), ...) {
         m<-x$getmatrix()
         if(!is.null(m)){
